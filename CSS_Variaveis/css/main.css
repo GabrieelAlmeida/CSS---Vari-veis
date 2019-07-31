@@ -1,0 +1,28 @@
+
+/* 
+    Usando Variáveis
+
+*/
+
+:root {
+
+    --cor_text: #16a085;
+
+}
+
+h4, p{
+    color: var(--cor_text);
+}
+
+section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10%;
+
+}
+
+section img{
+    border-radius:40%;
+}
